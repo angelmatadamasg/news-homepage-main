@@ -1,0 +1,21 @@
+* { /* Esto siempre */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body { /* Es recomendable esto */
+    font-family: system-ui;
+}
+
+section {
+    width: 80%;
+    display: grid; /* Usa para Elementos Padre */
+    gap: 2rem;
+    grid-template-columns: repeat(3 1fr);
+    justify-content: center;    
+}
+
+article {
+    border: 2px solid orange;
+}
